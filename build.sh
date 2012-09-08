@@ -20,3 +20,5 @@ cat $BD/snuownd.js >> bookmarklet.debug.js
 cat tmp/lib/reddit_enhancement_suite.user.js >> bookmarklet.debug.js
 
 rm -rf tmp
+
+jsmin < bookmarklet.debug.js > bookmarklet.min.js
